@@ -60,7 +60,7 @@ const TeamContact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-gray-600">Teléfono</p>
-                    <p className="text-gray-900 font-medium">+34 900 123 456</p>
+                    <p className="text-gray-900 font-medium">+57 300 000 0000</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -69,7 +69,7 @@ const TeamContact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-gray-600">Ubicación</p>
-                    <p className="text-gray-900 font-medium">Madrid, España</p>
+                    <p className="text-gray-900 font-medium">Tunja, Boyaca</p>
                   </div>
                 </div>
               </div>

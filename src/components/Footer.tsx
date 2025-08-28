@@ -67,9 +67,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
             <div className="space-y-2 text-gray-300">
-              <p>equipo@devteam.com</p>
-              <p>+34 900 123 456</p>
-              <p>Madrid, España</p>
+              <p>Tunja, Boyaca</p>
             </div>
           </div>
         </div>
