@@ -90,7 +90,7 @@ const TeamSection: React.FC = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="text-blue-500" size={18} />
-                  <span className="text-gray-700">Madrid, España</span>
+                  <span className="text-gray-700">Tunja, Colombia</span>
                 </div>
               </div>
 

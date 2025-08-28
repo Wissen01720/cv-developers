@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import Header from './components/Header';
 import TeamHero from './components/TeamHero';
 import TeamSection from './components/TeamSection';
