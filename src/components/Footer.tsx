@@ -1,9 +1,9 @@
-import React from 'react';
-import { Heart, ArrowUp } from 'lucide-react';
+import { ArrowUp, Heart } from "lucide-react";
+import React from "react";
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">DevTeam Portfolio</h3>
             <p className="text-gray-300 mb-4 max-w-md">
-              Equipo de desarrolladores especializados en crear experiencias web 
+              Equipo de desarrolladores especializados en crear experiencias web
               excepcionales y soluciones digitales innovadoras.
             </p>
             <div className="flex items-center space-x-2 text-gray-300">
@@ -30,7 +30,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <button
-                  onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() =>
+                    document
+                      .getElementById("home")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
                   className="text-gray-300 hover:text-yellow-400 transition-colors"
                 >
                   Inicio
@@ -38,7 +42,11 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => document.getElementById('team')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() =>
+                    document
+                      .getElementById("team")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
                   className="text-gray-300 hover:text-blue-400 transition-colors"
                 >
                   Equipo
@@ -46,7 +54,11 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() =>
+                    document
+                      .getElementById("projects")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
                   className="text-gray-300 hover:text-blue-400 transition-colors"
                 >
                   Proyectos
@@ -54,23 +66,17 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() =>
+                    document
+                      .getElementById("contact")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
                   className="text-gray-300 hover:text-blue-400 transition-colors"
                 >
                   Contacto
                 </button>
               </li>
             </ul>
-          </div>
-
-          {/* Contacto */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Contacto</h4>
-            <div className="space-y-2 text-gray-300">
-              <p>equipo@devteam.com</p>
-              <p>+34 900 123 456</p>
-              <p>Madrid, España</p>
-            </div>
           </div>
         </div>
 
@@ -80,13 +86,16 @@ const Footer: React.FC = () => {
           <div className="text-gray-300 text-sm mb-4 sm:mb-0">
             © 2024 DevTeam Portfolio. Todos los derechos reservados.
           </div>
-          
+
           <button
             onClick={scrollToTop}
             className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full transition-colors group"
             title="Volver arriba"
           >
-            <ArrowUp className="group-hover:-translate-y-1 transition-transform" size={20} />
+            <ArrowUp
+              className="group-hover:-translate-y-1 transition-transform"
+              size={20}
+            />
           </button>
         </div>
       </div>

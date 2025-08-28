@@ -11,13 +11,13 @@ export interface TeamMember {
     phone: string;
     github: string;
     linkedin: string;
-    twitter?: string;
   };
   stats: {
     projectsCompleted: number;
     yearsExperience: number;
     speciality: string;
   };
+  showPortfolioButton?: boolean;
 }
 
 export interface Skill {
