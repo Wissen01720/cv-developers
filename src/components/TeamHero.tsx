@@ -58,8 +58,8 @@ const TeamHero: React.FC = () => {
                 <div className="bg-green-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Zap className="text-green-600" size={24} />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">DevOps & Cloud</h3>
-                <p className="text-gray-600 text-sm">Infraestructura escalable y segura</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Desarrollo web & movil</h3>
+                <p className="text-gray-600 text-sm">funcionalidad en cualquier plataforma</p>
               </div>
             </div>
             
