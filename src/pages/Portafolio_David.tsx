@@ -1,24 +1,17 @@
-const achievements = [
-  {
-    title: "Top 10 Hackathon CodeFest Ad Astra 2024",
-    desc: "Finalista en el hackathon realizada por la FAC, logrando competir contra mas de 50 grupos a nivel nacional",
-    icon: "🏆",
-  },
-  {
-    title: "Certificado de Inteligencia Artificial nivel Innovador",
-    desc: "Completé el curso avanzado de Inteligencia Artificial en la Universidad Sergio Arboleda.",
-    icon: "📜",
-  },
-  {
-    title: "Cocreador del chatbot MedicAI",
-    desc: "Desarrollé un chatbot de atención médica utilizando IA para mejorar la accesibilidad a la atención médica.",
-    icon: "🚀",
-  },
-];
+
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
-import LifeImg from "../img/Life.jpg";
+import LifeImg from "../img/photo.jpg";
+
+const achievements = [
+  
+    {
+    title: "Certificado de Product Owner",
+    desc: "Completé el curso avanzado de Product Owner en platzi.",
+    icon: "📜",
+  },
+];
 
 // Variantes de animación
 const fadeInUp = {
@@ -40,7 +33,7 @@ interface Repo {
   forks_count: number;
 }
 
-const Portafolio_Edgard = () => {
+const Portafolio_David = () => {
   const [repos, setRepos] = useState<Repo[]>([]);
 
   useEffect(() => {
@@ -103,21 +96,21 @@ const Portafolio_Edgard = () => {
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4 text-gray-900">
             Hola, soy{" "}
             <span className="text-yellow-500 drop-shadow-lg">
-              Edgard Leonardo Patiño Largo
+              David Fernando Rico Mendivelso
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-700 mb-2 font-medium">
-            Desarrollador Frontend & Cybersecurity
+            Desarrollador Frontend
             <span className="text-purple-500">|</span> Apasionado por la
-            tecnología y la medicina
+            tecnología 
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Desarrollador apasionado por crear experiencias web excepcionales.
+            Desarrollador apasionado por crear experiencias web
             Especializado en tecnologías modernas y soluciones innovadoras.
           </p>
         </motion.div>
         <motion.div
-          className="md:w-1/3 flex justify-center items-center mt-10 md:mt-0"
+          className="md:w-1/3 flex justify-center items-cen.ter mt-10 md:mt-0"
           initial={{ scale: 0.7, rotate: -10 }}
           animate={{ scale: 1, rotate: 0 }}
           transition={{ type: "spring", stiffness: 120 }}
@@ -232,14 +225,9 @@ const Portafolio_Edgard = () => {
               { name: "FastAPI", level: 70, category: "Backend" },
               { name: "SpringBoot", level: 70, category: "Backend" },
               { name: "Supabase", level: 70, category: "Database" },
-              { name: "FireBase", level: 70, category: "Database" },
               { name: "MySQL", level: 70, category: "Database" },
               { name: "PostgreSQL", level: 70, category: "Database" },
               { name: "Git/GitHub", level: 75, category: "Tools" },
-              { name: "Render", level: 75, category: "Tools" },
-              { name: "Vercel", level: 80, category: "Tools" },
-              { name: "Nmap", level: 65, category: "Tools Cybersecurity" },
-              { name: "Wireshark", level: 60, category: "Tools Cybersecurity" },
             ];
             const groupedSkills = skills.reduce<Record<string, Skill[]>>(
               (acc, skill) => {
@@ -330,4 +318,4 @@ const Portafolio_Edgard = () => {
   );
 };
 
-export default Portafolio_Edgard;
+export default Portafolio_David;
