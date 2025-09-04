@@ -114,7 +114,6 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: 3,
-<<<<<<< HEAD
     name: 'Diego Jiménez',
     role: 'Desarrollador de software',
     description: 'Desarrollador de sistemas con experiencia en desarrollo web y movil.',
@@ -124,47 +123,21 @@ export const teamMembers: TeamMember[] = [
       { name: 'Python', level: 70, category: 'Backend' },
       { name: ' MySQL, Node.js ', level: 90, category: 'Database' },
       { name: 'React/React Native/HTML/CSS', level: 85, category: 'DevOps' }
-=======
-    name: "Carlos Ruiz",
-    role: "Backend Developer & DevOps",
-    description:
-      "Desarrollador backend especializado en arquitecturas de microservicios y DevOps. Experto en optimización y escalabilidad.",
-    avatar:
-      "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
-    skills: [
-      { name: "Python/Django", level: 90, category: "Backend" },
-      { name: "Node.js/Express", level: 85, category: "Backend" },
-      { name: "PostgreSQL/MySQL", level: 90, category: "Database" },
-      { name: "Docker/Kubernetes", level: 85, category: "DevOps" },
-      { name: "AWS/GCP", level: 80, category: "Cloud" },
->>>>>>> a073ab6b47e2848ca3fa326f17c42edf63c9a116
     ],
     projects: [
       {
         id: 5,
-<<<<<<< HEAD
         title: 'Sistema de Votación Digital ',
         description: ' aplicación web y móvil para gestionar procesos de votación universitarios.',
         technologies: ['React, TypeScript, Supabase, Node.js. '],
         image: 'https://www.e-certchile.cl/ecert/site/artic/20220826/imag/foto_0000000320220826093719/GettyImages-1313424098.jpg',
         demoUrl: '#',
         githubUrl: '#',
-=======
-        title: "Microservices Architecture",
-        description:
-          "Arquitectura de microservicios escalable con Docker y Kubernetes.",
-        technologies: ["Python", "Docker", "Kubernetes", "PostgreSQL"],
-        image:
-          "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
-        demoUrl: "#",
-        githubUrl: "#",
->>>>>>> a073ab6b47e2848ca3fa326f17c42edf63c9a116
         featured: true,
         teamMemberId: 3,
       },
       {
         id: 6,
-<<<<<<< HEAD
         title: 'App de Gestión de Tareas Personales ',
         description: ' de aplicación móvil para la organización de tareas diarias.',
         technologies: ['React Native, SQLite.  '],
@@ -188,30 +161,3 @@ export const teamMembers: TeamMember[] = [
     }
   }
 ];
-=======
-        title: "API Gateway",
-        description:
-          "Gateway de APIs con autenticación, rate limiting y monitoreo.",
-        technologies: ["Node.js", "Redis", "MongoDB", "JWT"],
-        image:
-          "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800",
-        demoUrl: "#",
-        githubUrl: "#",
-        featured: false,
-        teamMemberId: 3,
-      },
-    ],
-    contact: {
-      email: "carlos@equipo.com",
-      phone: "+34 555 123 456",
-      github: "https://github.com/carlos",
-      linkedin: "https://linkedin.com/in/carlos",
-    },
-    stats: {
-      projectsCompleted: 52,
-      yearsExperience: 5,
-      speciality: "Backend & DevOps",
-    },
-  },
-];
->>>>>>> a073ab6b47e2848ca3fa326f17c42edf63c9a116
