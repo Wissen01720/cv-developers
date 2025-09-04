@@ -59,18 +59,16 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: 2,
-    name: "María López",
-    role: "UI/UX Designer & Frontend Developer",
+    name: "David Fernando Rico Mendivelso",
+    role: "Frontend Developer",
     description:
-      "Diseñadora y desarrolladora frontend con enfoque en experiencia de usuario. Experta en crear interfaces intuitivas y atractivas.",
+      "Diseñador y desarrollador frontend con enfoque en experiencia de usuario. Experto en crear interfaces intuitivas y atractivas.",
     avatar:
-      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1",
+      "c:/Users/david/OneDrive/Documentos/photo.jpg",
     skills: [
-      { name: "UI/UX Design", level: 95, category: "Design" },
-      { name: "Figma/Adobe XD", level: 90, category: "Design" },
       { name: "React/Vue.js", level: 85, category: "Frontend" },
-      { name: "CSS/Sass", level: 90, category: "Frontend" },
-      { name: "Tailwind CSS", level: 95, category: "Frontend" },
+      { name: "CSS/Sass", level: 60, category: "Frontend" },
+      { name: "Tailwind CSS", level: 70, category: "Frontend" },
     ],
     projects: [
       {
@@ -78,41 +76,28 @@ export const teamMembers: TeamMember[] = [
         title: "Design System",
         description:
           "Sistema de diseño completo con componentes reutilizables y guías de estilo.",
-        technologies: ["Figma", "React", "Storybook", "Tailwind"],
+        technologies: ["Figma", "React", "Tailwind"],
         image:
           "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
         demoUrl: "#",
         githubUrl: "#",
         featured: true,
         teamMemberId: 2,
-      },
-      {
-        id: 4,
-        title: "Mobile Banking App",
-        description:
-          "Diseño y desarrollo de aplicación bancaria móvil con enfoque en UX.",
-        technologies: ["React Native", "Figma", "TypeScript"],
-        image:
-          "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800",
-        demoUrl: "#",
-        githubUrl: "#",
-        featured: false,
-        teamMemberId: 2,
-      },
+      }
     ],
     contact: {
-      email: "maria@equipo.com",
-      phone: "+34 987 654 321",
-      github: "https://github.com/maria",
-      linkedin: "https://linkedin.com/in/maria",
+      email: "david.rico@usantoto.edu.co",
+      phone: "+57 313 410 8164",
+      github: "https://github.com/D3IVISS",
+      linkedin: "",
     },
     stats: {
-      projectsCompleted: 38,
-      yearsExperience: 3,
-      speciality: "UI/UX Design",
+      projectsCompleted: 4,
+      yearsExperience: 1,
+      speciality: "Frontend Developer",
     },
   },
-  {
+  {   
     id: 3,
     name: "Carlos Ruiz",
     role: "Backend Developer & DevOps",
