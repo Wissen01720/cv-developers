@@ -6,7 +6,7 @@ import TeamContact from "./components/TeamContact";
 import TeamHero from "./components/TeamHero";
 import TeamProjects from "./components/TeamProjects";
 import TeamSection from "./components/TeamSection";
-import Portafolio_Edgard from "./pages/Portafolio_Edgard";
+import Portafolio_David from "./pages/Portafolio_David";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +15,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <Routes>
-        <Route path="/Portafolio_Edgard" element={<Portafolio_Edgard />} />
+        <Route path="/Portafolio_David" element={<Portafolio_David />} />
         <Route
           path="/"
           element={

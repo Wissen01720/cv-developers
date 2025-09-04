@@ -78,6 +78,13 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
+          {/* Contacto */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Contacto</h4>
+            <div className="space-y-2 text-gray-300">
+              <p>Tunja, Boyaca</p>
+            </div>
+          </div>
         </div>
 
         <hr className="border-gray-700 my-8" />
